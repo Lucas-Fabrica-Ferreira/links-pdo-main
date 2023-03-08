@@ -1,0 +1,194 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --text-color: rgb(255, 255, 255);
+  --stroke-color: rgb(255, 255, 255);
+  --surface-color: rgba(255, 255, 255, 0.151);
+}
+body {
+  background: url(./assets/Background.png) no-repeat top center/cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+#conta {
+  display: flex;
+  padding-top: 24px;
+  padding-right: 24px;
+  justify-content: end;
+  text-decoration: none;
+  font-size: 24px;
+}
+#profile {
+  text-align: center;
+}
+#profile img {
+  width: 171px;
+}
+#profile p {
+  font-weight: 300;
+  line-height: 24px;
+  padding: 32px;
+  font-size: 20px;
+  color: white;
+}
+.select-menu,
+.select-menu2,
+.select-menu3 {
+  width: 100%;
+  max-width: 588px;
+  margin: 0px auto 0px;
+  padding: 0 24px 10px;
+}
+.select-menu .select-btn,
+.select-menu2 .select-btn2,
+.select-menu3 .select-btn3 {
+  display: flex;
+  height: 55px;
+  color: white;
+  padding: 16px 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.2s;
+}
+.select-btn i {
+  font-size: 25px;
+  transition: 0.3s;
+}
+.select-menu.active .select-btn i {
+  transform: rotate(-180deg);
+}
+.select-menu .options {
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 30px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 25px;
+  display: none;
+  font-weight: 500;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.select-menu.active .options {
+  display: block;
+}
+.options .option {
+  display: flex;
+  height: 42px;
+  align-items: center;
+}
+.option i {
+  font-size: 25px;
+  margin-right: 12px;
+}
+.option .option-text {
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.select-btn2 i {
+  font-size: 25px;
+  transition: 0.3s;
+}
+.select-menu2.active .select-btn2 i {
+  transform: rotate(-180deg);
+}
+.select-menu2 .options2 {
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 30px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 25px;
+  display: none;
+  font-weight: 500;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.select-menu2.active .options2 {
+  display: block;
+}
+.options2 .option2 {
+  display: flex;
+  height: 42px;
+  align-items: center;
+}
+.option2 i {
+  font-size: 25px;
+  margin-right: 12px;
+}
+.option2 .option-text2 {
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.select-btn3 i {
+  font-size: 25px;
+  transition: 0.3s;
+}
+.select-menu3.active .select-btn3 i {
+  transform: rotate(-180deg);
+}
+.select-menu3 .options3 {
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 30px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 25px;
+  display: none;
+  font-weight: 500;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.select-menu3.active .options3 {
+  display: block;
+}
+.options3 .option3 {
+  display: flex;
+  height: 42px;
+  align-items: center;
+}
+.option3 i {
+  font-size: 25px;
+  margin-right: 12px;
+}
+.option3 .option-text3 {
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+  padding-left: 20px;
+}
+.sBtn-text2 {
+  text-decoration: none;
+  color: white;
+}
+.social {
+  display: flex;
+  width: 95%;
+  max-width: 588px;
+  margin: 49px auto 10px;
+  align-items: center;
+  padding-top: 5px;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+}
